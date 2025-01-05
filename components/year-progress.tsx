@@ -18,7 +18,7 @@ export const YearProgress = () => {
 
       // Calculate days left
       const msInDay = 24 * 60 * 60 * 1000;
-      const daysRemaining = Math.ceil(
+      const daysRemaining = Math.floor(
         (end.getTime() - now.getTime()) / msInDay
       );
 
