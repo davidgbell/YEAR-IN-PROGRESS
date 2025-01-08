@@ -44,14 +44,14 @@ export const YearProgress = () => {
             </div>
             <div className="w-full h-8 border border-white">
               <div
-                className="h-full bg-white transition-all duration-1000"
+                className="h-full bg-white"
                 style={{ width: `${progress}%` }}
               />
             </div>
             <div className="mt-2 flex justify-between text-sm">
               <p>{new Date().getFullYear()}</p>
               <p>
-                {daysLeft} <span className="opacity-25">days left</span>
+                {daysLeft} <span className="opacity-35">days left</span>
               </p>
             </div>
           </div>
